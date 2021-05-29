@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <!-- https://cdnjs.com/libraries/twitter-bootstrap/5.0.0-beta1 -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css" />
+
+    <!-- Icons: https://getbootstrap.com/docs/5.0/extend/icons/ -->
+    <!-- https://cdnjs.com/libraries/font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <title>Video Assignemnt Class</title>
+</head>
+
+<body>
+
+
+    <section>
+        <!-- header_section -->
+        <div class="header_section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4">
+                        <div class="header_logo">
+                            <img src="./img/logo.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-xl-8">
+                        <div class="header_menu">
+                            <ul class="text-uppercase p-0 m-0 ">
+                                <li class="actives"><a href="#">Home</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">RTL Tested</a></li>
+                                <li><a href="#">Pages <i class="bi bi-chevron-down"></i></a>
+                                    <ul>
+                                        <li><a href="#">Service</a></li>
+                                        <li><a href="#">Service</a></li>
+                                        <li><a href="#">Service</a></li>
+                                        <li><a href="#">Service</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Blogs <i class="bi bi-chevron-down"></i></a>
+                                    <ul>
+                                        <li><a href="#">BLOG FULL WIDHT</a></li>
+                                        <li><a href="#">BLOG LEFT SIDEBAR</a></li>
+                                        <li><a href="#">BLOG NO SIDEBAR</a></li>
+                                        <li><a href="#">BLOG RIGHT SIDEBAR</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">contacts <i class="bi bi-chevron-down"></i></a>
+                                    <ul>
+                                        <li><a href="#">Contact Layout 1</a></li>
+                                        <li><a href="#">Contact Layout 2</a></li>
+
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============Slider-section====================== -->
+
+    <section>
+        <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators b_bottom">
+                <button class="btncarcle " type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button class="btncarcle " type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button class="btncarcle " type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="shadows"></div>
+                <div class="carousel-item active">
+                    <img src="img/slider1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption c_caption d-none d-md-block">
+                        <h1 class="fw-bold">Trusted Factory Solution</h1>
+                        <a class="btn btn-warning" href="#">Discover More</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="shadows"></div>
+                    <img src="img/slider2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption c_caption d-none d-md-block">
+                        <h1 class="fw-bold">Trusted Factory Solution</h1>
+                        <a class="btn btn-warning" href="#">Discover More</a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="shadows"></div>
+                    <img src="img/slider3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption c_caption d-none d-md-block">
+                        <h1 class="fw-bold">Trusted Factory Solution</h1>
+                        <a class="btn btn-warning" href="#">Discover More</a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+        <!-- ============Build-section====================== -->
+        <section>
+            <div class="build_section my-5">
+                <div class="container  container2 py-5">
+                    <div class="row">
+                        <div class="col-xl-7 col-md-7-col-sm-7">
+                            <div class="build_left">
+                                <div class="build_img">
+                                    <img class="img-fluid" src="./img/welder-image.jpg" alt="">
+                                    <div class="small_img">
+                                        <div class="s_img">
+                                            <img src="./img/welder-small-image.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-5 col-md-5-col-sm-5">
+                            <div class="build_right">
+                                <p class="text-warning display-6 fw-bold">Conecrted Efforts to</p>
+                                <h1>Build Better</h1>
+
+                                <p class="prg px-3 py-2 my-5">5am big with get more inspiring solutions from here</p>
+                                <p class="text-muted mb-5">Vestibulum leo justo, dignissim eu pretuum quis, ornareelit.
+                                    Mauris cursuis elementum metus, vitae commodo elit rhd. Vivamus sollicitudin
+                                    imperdiet felis accumsan varius. Pellentesque habitant morbi tristique senctus etiy
+                                    netus et malesu fames ac turpis egestas. Ut arcu velit, aliquet in bibendum id,
+                                    consectetur vitae felis.</p>
+
+                                <a class="btn btn-warning mt-5" href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============Features-section================== -->
+        <section>
+            <div class="features-section my-5 py-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="features_title text-center my-3">
+                            <h2 class="my-5 h1">Our Features</h2>
+                        </div>
+
+                        <div class="col-xl-3 col-md-3 col-sm-3">
+                            <div class="features">
+                                <div class="F-img my-4">
+                                    <img src="./img/services-1.png" alt="">
+                                </div>
+                                <h3 class="display-2"> Constaction & Engineering</h3>
+                                <p>Pellentesque habitant morbi tristique senectus etiy netus et malesu fame turpis</p>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-3 col-sm-3">
+                            <div class="features">
+                                <div class="F-img my-4">
+                                    <img src="./img/services-2.png" alt="">
+                                </div>
+                                <h3 class="display-2">Enery Destribution & Grids</h3>
+                                <p>Pellentesque habitant morbi tristique senectus etiy netus et malesu fame turpis</p>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-3 col-sm-3">
+                            <div class="features">
+                                <div class="F-img my-4">
+                                    <img src="./img/services-3.png" alt="">
+                                </div>
+                                <h3 class="display-2"> Automotive & Power Supply</h3>
+                                <p>Pellentesque habitant morbi tristique senectus etiy netus et malesu fame turpis</p>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-md-3 col-sm-3">
+                            <div class="features">
+                                <div class="F-img my-4">
+                                    <img src="./img/services-4.png" alt="">
+                                </div>
+                                <h3 class="display-2"> Automotive Parts & System</h3>
+                                <p>Pellentesque habitant morbi tristique senectus etiy netus et malesu fame turpis</p>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==============choose-section================= -->
+
+        <section>
+            <div class="choose_section my-5 py-5">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-xl-6">
+                            <div class="build_right choose_left">
+                                <p class="text-warning display-6 fw-bold">What we do</p>
+                                <h1 class="mb-5">Why choose us</h1>
+                                <p class="text-muted mb-5">Fusce sit amet diam sit amet mi placerat molestie sed vitae
+                                    urna. Nam interdum id lorem non facilisis. Sed vel suscipit sem. Suspendisse quis
+                                    erat in felis lobortis fermentum at quis sem. Utvarius sapien sit ametiy magna
+                                    mattis, non feugiat erat tincidunt.</p>
+
+                                <ul class="list-unstyled">
+                                    <li> <i class="fa fa-check mr-2"> We are Professional.</i>
+                                    <li> <i class="fa fa-check mr-2"> We Provedie best services.</i>
+                                    <li> <i class="fa fa-check mr-2"> We Are trested and friendly provider.</i>
+                                    <li> <i class="fa fa-check mr-2"> We Are trested and friendly provider.</i>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-6">
+                            <div class="choose_right">
+                                <div class="C_right_img">
+                                    <div class="r_img">
+                                        <img src="./img/Fazil.jpg.png" alt="">
+                                        <div class="innerimg"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =================Industry-section=================== -->
+
+        <section>
+            <div class="industry_section text-center py-5">
+                <div class="container">
+                    <div class="row pb-5">
+                        <div class="industry_title py-5">
+                            <h1 class="text-light fw-bold mb-5">Industry Served</h1>
+                        </div>
+                        <div class="col-xl-12">
+                            <div class="cercle2 d-inline-block m-3 p-4">
+                                <div class="cercle_png">
+                                    <img src="./img/served1.png" alt="">
+                                    <p>Petroleum <br> and Gas</p>
+                                    <div class="pera"></div>
+                                </div>
+                            </div>
+                            <div class="cercle2 d-inline-block m-3 p-4">
+                                <div class="cercle_png">
+                                    <img src="./img/served2.png" alt="">
+                                    <p>Industrial Construction</p>
+                                    <div class="pera"></div>
+                                </div>
+                            </div>
+                            <div class="cercle2 d-inline-block m-3 p-4">
+                                <div class="cercle_png">
+                                    <img src="./img/served3.png" alt="">
+                                    <p>Chemical <br> Research</p>
+                                    <div class="pera"></div>
+                                </div>
+                            </div>
+                            <div class="cercle2 d-inline-block m-3 p-4">
+                                <div class="cercle_png">
+                                    <img src="./img/served4.png" alt="">
+                                    <p>Mechanical Engineering</p>
+                                    <div class="pera"></div>
+                                </div>
+                            </div>
+                            <div class="cercle2 d-inline-block m-3 p-4">
+                                <div class="cercle_png">
+                                    <img src="./img/served5.png" alt="">
+                                    <p>Power <br> Energies</p>
+                                    <div class="pera"></div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- =================Our Engineers_section================== -->
+
+        <div class="Our_section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6">
+                        <div class="o_left">
+                            <h1>Our Engineers</h1>
+                            <p class="text-muted mt-4">Fusce sit amet diam sit amet mi placerat molestie sed vitae. Nam
+                                interdume id lorem non facilisis. Sed vel suscipit sem. Suspendisse quis e felis
+                                lobortse Fusce sit amet diam sit amet mi placerat molestie sed vitae. Nam interdume id
+                                lorem non facilisis. Sed vel suscipit sem. fermentum at quis sem. tincidunt. Donec
+                                egestas porttitor rutrum</p>
+                            <a class="btn btn-warning mt-5" href="#">View All Member</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="row">
+                            <div class="col-xl-6">
+                                <div class="o_images">
+                                    <div class="img_o">
+                                        <img src="./img/team-member-1-267x300.jpg" alt="">
+                                        <p class="name">Alexandre Doe</p>
+                                        <div class="inner_img_o">
+                                            <div class="inner_content">
+                                                <h4>Alexandre Doe</h4>
+                                                <p>Engineer</p>
+                                                <ul class="list-inline">
+                                                    <li class="list-inline-item"><a class="text-decoration-none"
+                                                            href="#"><i class="fab fa-linkedin"></i></a></li>
+                                                    <li class="list-inline-item"><a class="text-decoration-none"
+                                                            href="#"><i class="fab fa-twitter"></i></a></li>
+                                                    <li class="list-inline-item"><a class="text-decoration-none"
+                                                            href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                                    <li class="list-inline-item"><a class="text-decoration-none"
+                                                            href="#"><i class="fab fa-instagram"></i></a></li>
+                                                    <li class="list-inline-item"><a class="text-decoration-none"
+                                                            href="#"><i class="fab fa-google-plus"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="o_images">
+                                    <div class="img_o">
+                                        <img src="./img/team-member-2-267x300.jpg" alt="">
+                                        <p class="name">Alexandre Doe</p>
+                                        <div class="inner_img_o">
+                                            <div class="inner_content">
+                                                <h4>Alexandre Doe</h4>
+                                                <p>Engineer</p>
+                                                <ul class="list-inline">
+                                                    <li class="list-inline-item"><a class="text-decoration-none"
+                                                            href="#"><i class="fab fa-linkedin"></i></a></li>
+                                                    <li class="list-inline-item"><a class="text-decoration-none"
+                                                            href="#"><i class="fab fa-twitter"></i></a></li>
+                                                    <li class="list-inline-item"><a class="text-decoration-none"
+                                                            href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                                    <li class="list-inline-item"><a class="text-decoration-none"
+                                                            href="#"><i class="fab fa-instagram"></i></a></li>
+                                                    <li class="list-inline-item"><a class="text-decoration-none"
+                                                            href="#"><i class="fab fa-google-plus"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="row">
+                            <div class="col-xl-6">
+                                <div class="o_images">
+                                    <div class="img_o">
+                                        <img src="./img/team-member-3-267x300.jpg" alt="">
+                                        <p class="name">Alexandre Doe</p>
+                                        <div class="inner_img_o">
+                                            <div class="inner_content">
+                                                <h4>Alexandre Doe</h4>
+                                                <p>Engineer</p>
+                                                <ul class="list-inline">
+                                                    <li class="list-inline-item"><a class="text-decoration-none"
+                                                            href="#"><i class="fab fa-linkedin"></i></a></li>
+                                                    <li class="list-inline-item"><a class="text-decoration-none"
+                                                            href="#"><i class="fab fa-twitter"></i></a></li>
+                                                    <li class="list-inline-item"><a class="text-decoration-none"
+                                                            href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                                    <li class="list-inline-item"><a class="text-decoration-none"
+                                                            href="#"><i class="fab fa-instagram"></i></a></li>
+                                                    <li class="list-inline-item"><a class="text-decoration-none"
+                                                            href="#"><i class="fab fa-google-plus"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="o_images">
+                                    <div class="img_o">
+                                        <img src="./img/team-member-4-267x300.jpg" alt="">
+                                        <p class="name">Alexandre Doe</p>
+                                        <div class="inner_img_o">
+                                            <div class="inner_content">
+                                                <h4>Alexandre Doe</h4>
+                                                <p>Engineer</p>
+                                                <ul class="list-inline">
+                                                    <li class="list-inline-item"><a class="text-decoration-none"
+                                                            href="#"><i class="fab fa-linkedin"></i></a></li>
+                                                    <li class="list-inline-item"><a class="text-decoration-none"
+                                                            href="#"><i class="fab fa-twitter"></i></a></li>
+                                                    <li class="list-inline-item"><a class="text-decoration-none"
+                                                            href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                                    <li class="list-inline-item"><a class="text-decoration-none"
+                                                            href="#"><i class="fab fa-instagram"></i></a></li>
+                                                    <li class="list-inline-item"><a class="text-decoration-none"
+                                                            href="#"><i class="fab fa-google-plus"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="row">
+                            <div class="col-xl-6">
+                                <div class="o_images">
+                                    <div class="img_o">
+                                        <img src="./img/team-member-5-267x300.jpg" alt="">
+                                        <p class="name">Alexandre Doe</p>
+                                        <div class="inner_img_o">
+                                            <div class="inner_content">
+                                                <h4>Alexandre Doe</h4>
+                                                <p>Engineer</p>
+                                                <ul class="list-inline">
+                                                    <li class="list-inline-item"><a class="text-decoration-none"
+                                                            href="#"><i class="fab fa-linkedin"></i></a></li>
+                                                    <li class="list-inline-item"><a class="text-decoration-none"
+                                                            href="#"><i class="fab fa-twitter"></i></a></li>
+                                                    <li class="list-inline-item"><a class="text-decoration-none"
+                                                            href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                                    <li class="list-inline-item"><a class="text-decoration-none"
+                                                            href="#"><i class="fab fa-instagram"></i></a></li>
+                                                    <li class="list-inline-item"><a class="text-decoration-none"
+                                                            href="#"><i class="fab fa-google-plus"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="o_images">
+                                    <div class="img_o">
+                                        <img src="./img/team-member-6-267x300.jpg" alt="">
+                                        <p class="name">Alexandre Doe</p>
+                                        <div class="inner_img_o">
+                                            <div class="inner_content">
+                                                <h4>Alexandre Doe</h4>
+                                                <p>Engineer</p>
+                                                <ul class="list-inline">
+                                                    <li class="list-inline-item"><a class="text-decoration-none"
+                                                            href="#"><i class="fab fa-linkedin"></i></a></li>
+                                                    <li class="list-inline-item"><a class="text-decoration-none"
+                                                            href="#"><i class="fab fa-twitter"></i></a></li>
+                                                    <li class="list-inline-item"><a class="text-decoration-none"
+                                                            href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                                    <li class="list-inline-item"><a class="text-decoration-none"
+                                                            href="#"><i class="fab fa-instagram"></i></a></li>
+                                                    <li class="list-inline-item"><a class="text-decoration-none"
+                                                            href="#"><i class="fab fa-google-plus"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- ============Clients Setisfied-section -->
+
+
+        <section>
+            <div class="clients_section my-5 py-5">
+                <div class="C_innerimg"></div>
+                <div class="container">
+                    <div class="row py-5">
+                        <div class="col-xl-6">
+                            <div class="clients_left text-center shadow p-3 mb-5 bg-body rounded p-5">
+                                <div class="C_content">
+                                    <div class="client_img">
+                                        <img src="./img/person1.jpg" alt="">
+
+                                    </div>
+
+                                    <h5 class="mt-5 d-inline-block clientsh5">Jonh Doe</h5>
+                                    <p class="text-muted">Happy Customar</p>
+                                    <p class="text-muted">If you need any industrial solution we are avaiable for you.
+                                        Lorem dolor set amet, consectetur adipiscing elit, sed deiusmod. tempor
+                                        incididunt ut labore et dolore magna aliqua</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6">
+                            <div class="build_right">
+                                <p class="text-warning display-6 fw-bold">Our Happy clients</p>
+                                <h1 class="mb-5">Say's About Us</h1>
+
+
+                                <p class="text-muted">If you need any industrial solution we are avaiable for <br> you.
+                                    Lorem ipsum dolor set amet, consectetur adipiscing <br> elit, sed deiusmod. tempor
+                                    incididunt ut labore et dolore <br> magna aliqua</p>
+
+                                <a class="btn btn-warning mt-5" href="#">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ====================Question-section ===================-->
+
+        <div class="question_section py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6">
+                        <div class="q_content">
+                            <div class="q_title">
+                                <p>Our FAQs</p>
+                                <h1>Frequently Asked <br> Question</h1>
+                            </div>
+                        </div>
+
+                        <div class="accordion" id="accordionExample">
+                            
+                            <div class="accordion-item mb-3">
+                              <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                  <span>metus venenatis purus vehicula? </span>
+                                </button>
+                              </h2>
+                              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="accordion-item mb-3">
+                              <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                  <span>metus venenatis purus vehicula? </span>
+                                </button>
+                              </h2>
+                              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="accordion-item  mb-3">
+                              <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <span>metus venenatis purus vehicula? </span>
+                                </button>
+                              </h2>
+                              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                              </div>
+                            </div>
+                            
+                            <div class="accordion-item  mb-3">
+                              <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <span>metus venenatis purus vehicula? </span>
+                                </button>
+                              </h2>
+                              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                      
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="q_right">
+                            <div class="row">
+                                <div class="col-xl-12">
+                                    <div class="q_content text-end">
+                                        <div class="q_img">
+                                            <img src="./img/factory-banner-image.png" alt="">
+                                            <div class="q_inner_content qq_inner_content">
+                                                <div class="q_inner_png">
+                                                    <img class="mw-100" src="./img/factory-image.png" alt="">
+                                                </div>
+                                                <h1 class="fw-bold">We Have 20+ Years of</h1>
+                                                <p>Experiences for give You Better Results</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-12">
+                                    <div class="q_content text-end">
+                                        <div class="q_img">
+                                            <img src="./img/factory-banner-image-2.png" alt="">
+                                            <div class="q_inner_content  pt-5">
+
+                                                <h1 class="fw-bold mt-5">213 546 6654</h1>
+                                                <p>Call us & Get a Free Estimate</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- ==========Footer-section===================== -->
+
+        <div class="footer_section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="footer footer1">
+                            <h4>FACTORY</h4>
+                            <div class="footer_border"></div>
+                            <p>Street 238,52 tempor <br>
+                                Donec ultricies mattis nulla, suscipit <br>
+                                risus tristique ut.</p>
+                            <ul>
+                                <li><strong>Phone</strong> 1.800.555.6789</li>
+                                <li><strong>Email</strong> support@sitename.com</li>
+                                <li><strong>website</strong>http://demo.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="footer footer2">
+                            <h4>OUR SERVICES</h4>
+                            <div class="footer_border"></div>
+                            <ul>
+                                <li><a href="#"><i class="bi bi-chevron-right"></i> Home</a></li>
+                                <li><a href="#"><i class="bi bi-chevron-right"></i> About Us</a></li>
+                                <li><a href="#"><i class="bi bi-chevron-right"></i> Services</a></li>
+                                <li><a href="#"><i class="bi bi-chevron-right"></i> Blog</a></li>
+                                <li><a href="#"><i class="bi bi-chevron-right"></i> Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="footer footer2">
+                            <h4>QUICK LINKS</h4>
+                            <div class="footer_border"></div>
+                            <ul>
+                                <li><a href="#"><i class="bi bi-chevron-right"></i> Home</a></li>
+                                <li><a href="#"><i class="bi bi-chevron-right"></i> About Us</a></li>
+                                <li><a href="#"><i class="bi bi-chevron-right"></i> Services</a></li>
+                                <li><a href="#"><i class="bi bi-chevron-right"></i> Blog</a></li>
+                                <li><a href="#"><i class="bi bi-chevron-right"></i> Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="footer footer4">
+                            <h4>NEWSLETTER</h4>
+                            <div class="footer_border"></div>
+                            <input type="email" placeholder="Enter your email">
+                            <a class="btn7" href="#"><i class="fas fa-paper-plane"></i></a>
+                            <hr>
+
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fab fa-medium"></i></a></li>
+                                <li><a href="#"><i class="fab fa-behance"></i></a></li>
+                                <li><a href="#"><i class="fab fa-google-plus"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer_bottom text-center">
+                <hr>
+
+                <br>
+                <p>&copy; Copyright 2018. <span class="text-warning">Ariyan Ahmed Masud</span>. All Rights Reserved by
+                    SKT Themes</p>
+            </div>
+
+        </div>
+
+        <!-- ================footer-bottom================= -->
+
+
+
+        <!-- Optional JavaScript; choose one of the two! -->
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.bundle.min.js">
+        </script>
+
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+
+        <!-- https://cdnjs.com/libraries/popper.js/2.5.4 -->
+        <!-- <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.min.js"
+    ></script> -->
+
+        <!-- More: https://getbootstrap.com/docs/5.0/getting-started/introduction/ -->
+</body>
+
+</html>
